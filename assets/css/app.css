@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
 *,
 *::before,
 *::after {
@@ -5,7 +6,19 @@
   padding: 0;
   transition: color 0.3s, background-color 0.3s;
 }
-
+body,
+html {
+  font-size: 15px;
+  background-color: #e2e8f0;
+  font-family: "Roboto";
+  color: #7a7a7a;
+}
+.title {
+  color: #2c2c2c;
+}
+.input-search {
+  background-color: #e2e8f0;
+}
 img {
   display: block;
   max-width: 100%;
@@ -13,4 +26,27 @@ img {
 }
 .home-page {
   display: grid;
+  grid-template-columns: 250px 965px;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.dashboard {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.home-main {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.home-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.header {
+  grid-area: 1 / 1 / 1 / 3;
 }
