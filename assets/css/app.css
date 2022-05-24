@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.home-page {
+  display: grid;
+}
