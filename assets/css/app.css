@@ -50,3 +50,8 @@ img {
 .header {
   grid-area: 1 / 1 / 1 / 3;
 }
+.dashboard__list dashboard_list-main{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
