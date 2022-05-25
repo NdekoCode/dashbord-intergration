@@ -331,9 +331,11 @@ small.title {
   padding-bottom: 50px;
 }
 .dashboard__list__item {
-  padding-bottom: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .text {
+  font-size: 1.5rem;
   margin-left: 10px;
 }
 .sidebar__list{
@@ -346,6 +348,8 @@ small.title {
   padding: 30px;
 }
 .sidebar__list__item{
+  margin-bottom: 15px;
+  padding-bottom: 15px;
   border-bottom: 2px solid #ddd;
 }
 @media only screen and (max-width: 1200px){
@@ -358,6 +362,7 @@ small.title {
     flex-wrap: wrap;
     justify-content: space-around;
     font-weight: bold;
+    font-size: 2rem;
   } 
 }
 
