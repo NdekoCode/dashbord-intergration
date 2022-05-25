@@ -554,4 +554,7 @@ small.title {
   .sidebar-announce {
     margin-bottom: 40px;
   }
+  .header__infos {
+    margin-top: 0;
+  }
 }
