@@ -186,6 +186,9 @@ small.title {
   grid-row-gap: 0px;
 }
 
+.dashboard a {
+  color: inherit;
+}
 .home-main {
   display: grid;
   grid-column-gap: 0px;
@@ -294,10 +297,34 @@ small.title {
     grid-template-rows: minmax(160px, 195px) 1fr;
   }
 }
+.dashboard-sidebar{
+  background-color: #3B82F6;
+  padding: 20px;
+}
 
 .dashboard__list {
+  text-decoration: none;
+  list-style: none;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-weight: bold;
+  
+}
+.dashboard__list a {
+  text-decoration: none;
+}
+.title-1{
+  color: white;
+  margin-bottom: 40px;
+}
+.dashboard_list-main{
+  padding-bottom: 50px;
+}
+.dashboard__list__item{
+  padding-bottom: 15px;
+}
+.text{
+  margin-left: 10px;
 }
