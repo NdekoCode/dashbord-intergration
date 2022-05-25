@@ -38,6 +38,9 @@ img {
 .home-main {
   grid-area: 1 / 2 / 2 / 3;
 }
+.dashboard a {
+  color: inherit;
+}
 
 .home-main {
   display: grid;
