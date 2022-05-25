@@ -328,16 +328,19 @@ small.title {
 .text{
   margin-left: 10px;
 }
-sidebar__list{
+.sidebar__list{
   list-style: none;
   display: flex;
-  flex-direction: row;
-  border-color: white;
+  flex-direction: column;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 1px 3px 4px black;
-
+  padding: 30px;
 }
-@media only screen and (min-width: 1200px){
+.sidebar__list__item{
+  border-bottom: 2px solid #ddd;
+}
+@media only screen and (max-width: 1200px){
   .dashboard__list {
     text-decoration: none;
     list-style: none;
