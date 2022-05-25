@@ -84,3 +84,26 @@ img {
 .text{
   margin-left: 10px;
 }
+sidebar__list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  border-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 3px 4px black;
+
+}
+@media only screen and (min-width: 1200px){
+  .dashboard__list {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: bold;
+  } 
+}
+
+
