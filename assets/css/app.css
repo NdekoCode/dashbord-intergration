@@ -294,3 +294,10 @@ small.title {
     grid-template-rows: minmax(160px, 195px) 1fr;
   }
 }
+
+.dashboard__list {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
