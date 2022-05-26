@@ -379,7 +379,7 @@ small.title {
 .sidebar.sidebar-trending {
   padding: 15px;
 }
-.sidebar-content {
+.sidebar-trending .sidebar-content {
   margin-left: 25px;
 }
 .home-main-end .title-2 {
