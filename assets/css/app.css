@@ -359,24 +359,24 @@ small.title {
   border-bottom: 2px solid #ddd;
 }
 
-.sidebar-announce{
+.sidebar-announce {
   margin-bottom: 15px;
 }
-.sidebar__list__item p{
+.sidebar__list__item p {
   font-size: 12px;
 }
-.img__container{
+.img__container {
   width: 50px;
 }
-.sidebar__list__item:nth-child(3){
+.sidebar__list__item:nth-child(3) {
   margin: Opx;
   padding: 0px;
   border-bottom: none;
 }
-icon mdi mdi-view-dashboard{
+icon mdi mdi-view-dashboard {
   width: 20px;
 }
-.sidebar-trending{
+.sidebar-trending {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 25% 25% 25% 25%;
@@ -389,13 +389,12 @@ icon mdi mdi-view-dashboard{
 .trending {
   margin-top: 20px;
 }
-.img__container, 
-.sidebar-content{
+.img__container,
+.sidebar-content {
   padding-bottom: 5px;
   margin-bottom: 5px;
 }
-@media only screen and (max-width: 1200px){
-=======
+
 @media only screen and (max-width: 1200px) {
   .dashboard__list {
     text-decoration: none;
